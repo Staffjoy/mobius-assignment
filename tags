@@ -1,0 +1,252 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APPROVED_TIME_OFF_STATES	mobius/constants.py	/^APPROVED_TIME_OFF_STATES = ["approved_paid", "approved_unpaid", "sick"]$/;"	kind:variable	line:13
+APPROVED_TIME_OFF_STATES	mobius/employee.py	/^from mobius.constants import MINUTES_PER_HOUR, HOURS_PER_DAY, APPROVED_TIME_OFF_STATES$/;"	kind:namespace	line:12
+ApiSpoof	tests/helpers.py	/^class ApiSpoof:$/;"	kind:class	line:1
+ApiSpoof	tests/test_employee.py	/^from .helpers import ApiSpoof$/;"	kind:namespace	line:11
+ApiSpoof	tests/test_helpers.py	/^from .helpers import ApiSpoof$/;"	kind:namespace	line:7
+Assign	functional-tests/test_courier.py	/^from mobius import Employee, Environment, Assign$/;"	kind:namespace	line:3
+Assign	mobius/__init__.py	/^from .assign import Assign$/;"	kind:namespace	line:53
+Assign	mobius/assign.py	/^class Assign():$/;"	kind:class	line:15
+Assign	mobius/tasking.py	/^from mobius.assign import Assign$/;"	kind:namespace	line:12
+Assign	mobius/tuner.py	/^from mobius.assign import Assign$/;"	kind:namespace	line:5
+Client	mobius/tasking.py	/^from staffjoy import Client, NotFoundException$/;"	kind:namespace	line:7
+ContextFilter	mobius/__init__.py	/^class ContextFilter(logging.Filter):$/;"	kind:class	line:24
+DAYS_OF_WEEK	functional-tests/test_courier.py	/^from mobius.constants import DAYS_OF_WEEK$/;"	kind:namespace	line:5
+DAYS_OF_WEEK	mobius/constants.py	/^DAYS_OF_WEEK = ["monday", "tuesday", "wednesday", "thursday", "friday",$/;"	kind:variable	line:10
+DAYS_OF_WEEK	mobius/helpers.py	/^from mobius.constants import HOURS_PER_DAY, DAYS_OF_WEEK$/;"	kind:namespace	line:4
+DEFAULT_TZ	mobius/config.py	/^    DEFAULT_TZ = "utc"$/;"	kind:variable	line:16
+DefaultConfig	mobius/config.py	/^class DefaultConfig:$/;"	kind:class	line:7
+DevelopmentConfig	mobius/config.py	/^class DevelopmentConfig(DefaultConfig):$/;"	kind:class	line:40
+ENV	mobius/config.py	/^    ENV = "dev"$/;"	kind:variable	line:41
+ENV	mobius/config.py	/^    ENV = "prod"$/;"	kind:variable	line:8
+ENV	mobius/config.py	/^    ENV = "stage"$/;"	kind:variable	line:37
+ENV	mobius/config.py	/^    ENV = "test"$/;"	kind:variable	line:52
+Employee	functional-tests/test_courier.py	/^from mobius import Employee, Environment, Assign$/;"	kind:namespace	line:3
+Employee	mobius/__init__.py	/^from .employee import Employee$/;"	kind:namespace	line:56
+Employee	mobius/employee.py	/^class Employee:$/;"	kind:class	line:15
+Employee	mobius/tasking.py	/^from mobius.employee import Employee$/;"	kind:namespace	line:10
+Employee	mobius/tuner.py	/^from mobius.employee import Employee$/;"	kind:namespace	line:6
+Employee	tests/test_employee.py	/^from mobius import Employee, Environment$/;"	kind:namespace	line:7
+Environment	functional-tests/test_courier.py	/^from mobius import Employee, Environment, Assign$/;"	kind:namespace	line:3
+Environment	mobius/__init__.py	/^from .environment import Environment$/;"	kind:namespace	line:55
+Environment	mobius/environment.py	/^class Environment:$/;"	kind:class	line:7
+Environment	mobius/tasking.py	/^from mobius.environment import Environment$/;"	kind:namespace	line:11
+Environment	mobius/tuner.py	/^from mobius.environment import Environment$/;"	kind:namespace	line:8
+Environment	tests/test_employee.py	/^from mobius import Employee, Environment$/;"	kind:namespace	line:7
+Environment	tests/test_environment.py	/^from mobius import Environment$/;"	kind:namespace	line:7
+HAPPY_CALCULATION_TIMEOUT	mobius/config.py	/^    HAPPY_CALCULATION_TIMEOUT = 20 * 60  # 20 minutes$/;"	kind:variable	line:29
+HOURS_PER_DAY	mobius/constants.py	/^HOURS_PER_DAY = 24$/;"	kind:variable	line:3
+HOURS_PER_DAY	mobius/employee.py	/^from mobius.constants import MINUTES_PER_HOUR, HOURS_PER_DAY, APPROVED_TIME_OFF_STATES$/;"	kind:namespace	line:12
+HOURS_PER_DAY	mobius/helpers.py	/^from mobius.constants import HOURS_PER_DAY, DAYS_OF_WEEK$/;"	kind:namespace	line:4
+HOURS_PER_DAY	tests/test_employee.py	/^from mobius.constants import HOURS_PER_DAY$/;"	kind:namespace	line:9
+KILL_DELAY	mobius/config.py	/^    KILL_DELAY = 60  # To prevent infinite loop, sleep before kill$/;"	kind:variable	line:33
+KILL_ON_ERROR	mobius/config.py	/^    KILL_ON_ERROR = False$/;"	kind:variable	line:48
+KILL_ON_ERROR	mobius/config.py	/^    KILL_ON_ERROR = False$/;"	kind:variable	line:56
+KILL_ON_ERROR	mobius/config.py	/^    KILL_ON_ERROR = True$/;"	kind:variable	line:32
+LOG_LEVEL	mobius/config.py	/^    LOG_LEVEL = logging.DEBUG$/;"	kind:variable	line:42
+LOG_LEVEL	mobius/config.py	/^    LOG_LEVEL = logging.DEBUG$/;"	kind:variable	line:54
+LOG_LEVEL	mobius/config.py	/^    LOG_LEVEL = logging.INFO$/;"	kind:variable	line:9
+MAX_HOURS_PER_SHIFT	mobius/config.py	/^    MAX_HOURS_PER_SHIFT = 23$/;"	kind:variable	line:17
+MAX_TUNING_TIME	mobius/config.py	/^    MAX_TUNING_TIME = 1 * 60 * 60  # 1 Hour$/;"	kind:variable	line:25
+MAX_TUNING_TIME	mobius/config.py	/^    MAX_TUNING_TIME = 5 * 60  # 5 minutes$/;"	kind:variable	line:47
+MINUTES_PER_HALF_HOUR	mobius/constants.py	/^MINUTES_PER_HALF_HOUR = 30$/;"	kind:variable	line:4
+MINUTES_PER_HOUR	mobius/assign.py	/^from mobius.constants import MINUTES_PER_HOUR$/;"	kind:namespace	line:8
+MINUTES_PER_HOUR	mobius/constants.py	/^MINUTES_PER_HOUR = 60$/;"	kind:variable	line:5
+MINUTES_PER_HOUR	mobius/employee.py	/^from mobius.constants import MINUTES_PER_HOUR, HOURS_PER_DAY, APPROVED_TIME_OFF_STATES$/;"	kind:namespace	line:12
+MINUTES_PER_HOUR	mobius/tasking.py	/^from mobius.constants import MINUTES_PER_HOUR, UNASSIGNED_USER_ID$/;"	kind:namespace	line:13
+MIN_HOURS_VIOLATION_PENALTY	mobius/config.py	/^    MIN_HOURS_VIOLATION_PENALTY = -1000$/;"	kind:variable	line:21
+NotFoundException	mobius/employee.py	/^from staffjoy.exceptions import NotFoundException$/;"	kind:namespace	line:6
+NotFoundException	mobius/tasking.py	/^from staffjoy import Client, NotFoundException$/;"	kind:namespace	line:7
+PAPERTRAIL	mobius/config.py	/^    PAPERTRAIL = "logs2.papertrailapp.com:13478"$/;"	kind:variable	line:12
+REQUEUE_STATE	mobius/tasking.py	/^    REQUEUE_STATE = "mobius-queue"$/;"	kind:variable	line:21
+SECONDS_PER_MINUTE	mobius/constants.py	/^SECONDS_PER_MINUTE = 60$/;"	kind:variable	line:6
+SECONDS_PER_MINUTE	mobius/shift.py	/^from mobius.constants import SECONDS_PER_MINUTE$/;"	kind:namespace	line:4
+STAFFJOY_API_KEY	mobius/config.py	/^    STAFFJOY_API_KEY = "staffjoydev"$/;"	kind:variable	line:45
+STAFFJOY_API_KEY	mobius/config.py	/^    STAFFJOY_API_KEY = os.environ.get("STAFFJOY_API_KEY")$/;"	kind:variable	line:15
+SYSLOG	mobius/config.py	/^    SYSLOG = False$/;"	kind:variable	line:43
+SYSLOG	mobius/config.py	/^    SYSLOG = False$/;"	kind:variable	line:53
+SYSLOG	mobius/config.py	/^    SYSLOG = True  # Send logs to papertrail$/;"	kind:variable	line:10
+Shift	functional-tests/test_courier.py	/^from mobius.shift import Shift$/;"	kind:namespace	line:4
+Shift	mobius/employee.py	/^from mobius.shift import Shift$/;"	kind:namespace	line:9
+Shift	mobius/shift.py	/^class Shift():$/;"	kind:class	line:7
+Shift	mobius/tasking.py	/^from mobius.shift import Shift$/;"	kind:namespace	line:15
+Shift	mobius/tuner.py	/^from mobius.shift import Shift$/;"	kind:namespace	line:7
+Shift	tests/test_employee.py	/^from mobius.shift import Shift$/;"	kind:namespace	line:10
+StageConfig	mobius/config.py	/^class StageConfig(DefaultConfig):$/;"	kind:class	line:36
+SysLogHandler	mobius/__init__.py	/^from logging.handlers import SysLogHandler$/;"	kind:namespace	line:2
+TASKING_FETCH_INTERVAL_SECONDS	mobius/config.py	/^    TASKING_FETCH_INTERVAL_SECONDS = 20$/;"	kind:variable	line:14
+TASKING_FETCH_INTERVAL_SECONDS	mobius/config.py	/^    TASKING_FETCH_INTERVAL_SECONDS = 5$/;"	kind:variable	line:44
+THREADS	mobius/config.py	/^    THREADS = 16  # Max for what Dantzig can support$/;"	kind:variable	line:22
+THREADS	mobius/config.py	/^    THREADS = 16  # Max for what Dantzig can support$/;"	kind:variable	line:46
+THREADS	mobius/config.py	/^    THREADS = 6$/;"	kind:variable	line:55
+TUNE_FILE	mobius/config.py	/^    TUNE_FILE = "tuning.prm"$/;"	kind:variable	line:26
+Tasking	mobius/__init__.py	/^from .tasking import Tasking$/;"	kind:namespace	line:54
+Tasking	mobius/tasking.py	/^class Tasking():$/;"	kind:class	line:18
+TestConfig	mobius/config.py	/^class TestConfig(DefaultConfig):$/;"	kind:class	line:51
+TestEmployee	tests/test_employee.py	/^class TestEmployee(unittest.TestCase):$/;"	kind:class	line:14
+TestEnvironment	tests/test_environment.py	/^class TestEnvironment(unittest.TestCase):$/;"	kind:class	line:21
+UNASSIGNED_PENALTY	mobius/config.py	/^    UNASSIGNED_PENALTY = -1000$/;"	kind:variable	line:20
+UNASSIGNED_USER_ID	mobius/constants.py	/^UNASSIGNED_USER_ID = 0$/;"	kind:variable	line:8
+UNASSIGNED_USER_ID	mobius/tasking.py	/^from mobius.constants import MINUTES_PER_HOUR, UNASSIGNED_USER_ID$/;"	kind:namespace	line:13
+__init__	mobius/assign.py	/^    def __init__(self, environment, employees, shifts):$/;"	kind:member	line:20
+__init__	mobius/employee.py	/^    def __init__(self,$/;"	kind:member	line:18
+__init__	mobius/environment.py	/^    def __init__(self,$/;"	kind:member	line:10
+__init__	mobius/shift.py	/^    def __init__(self, shift_api_obj):$/;"	kind:member	line:10
+__init__	mobius/tasking.py	/^    def __init__(self):$/;"	kind:member	line:23
+__init__	tests/helpers.py	/^    def __init__(self, data):$/;"	kind:member	line:4
+__init__.py	functional-tests/__init__.py	1;"	kind:file	line:1
+__init__.py	mobius/__init__.py	1;"	kind:file	line:1
+__init__.py	tests/__init__.py	1;"	kind:file	line:1
+_build_active_days	mobius/employee.py	/^    def _build_active_days(self):$/;"	kind:member	line:70
+_calculate	mobius/assign.py	/^    def _calculate(self,$/;"	kind:member	line:78
+_fetch_existing_shifts	mobius/employee.py	/^    def _fetch_existing_shifts(self):$/;"	kind:member	line:156
+_fetch_preceding_day_worked	mobius/employee.py	/^    def _fetch_preceding_day_worked(self):$/;"	kind:member	line:108
+_fetch_preceding_days_worked_streak	mobius/employee.py	/^    def _fetch_preceding_days_worked_streak(self):$/;"	kind:member	line:130
+_fetch_preferences	mobius/employee.py	/^    def _fetch_preferences(self):$/;"	kind:member	line:76
+_fetch_time_off_requests	mobius/employee.py	/^    def _fetch_time_off_requests(self):$/;"	kind:member	line:98
+_fetch_working_hours	mobius/employee.py	/^    def _fetch_working_hours(self):$/;"	kind:member	line:89
+_filter_preferences	mobius/employee.py	/^    def _filter_preferences(self):$/;"	kind:member	line:293
+_get_local_start_time	mobius/tasking.py	/^    def _get_local_start_time(self):$/;"	kind:member	line:140
+_get_role_client	mobius/employee.py	/^    def _get_role_client(self):$/;"	kind:member	line:286
+_process_existing_shifts	mobius/employee.py	/^    def _process_existing_shifts(self):$/;"	kind:member	line:193
+_process_task	mobius/tasking.py	/^    def _process_task(self, task):$/;"	kind:member	line:77
+_process_time_off_requests	mobius/employee.py	/^    def _process_time_off_requests(self, to_requests):$/;"	kind:member	line:201
+_set_alpha_beta	mobius/employee.py	/^    def _set_alpha_beta(self):$/;"	kind:member	line:304
+assign.py	mobius/assign.py	1;"	kind:file	line:1
+available_to_work	mobius/employee.py	/^    def available_to_work(self, shift):$/;"	kind:member	line:232
+basedir	mobius/config.py	/^basedir = os.path.abspath(os.path.dirname(__file__))$/;"	kind:variable	line:4
+calculate	mobius/assign.py	/^    def calculate(self):$/;"	kind:member	line:46
+config	mobius/__init__.py	/^config = config[os.environ.get("ENV", "dev")]$/;"	kind:variable	line:18
+config	mobius/__init__.py	/^from .config import config$/;"	kind:namespace	line:6
+config	mobius/assign.py	/^from mobius import logger, config$/;"	kind:namespace	line:9
+config	mobius/config.py	/^config = {  # Determined in main.py$/;"	kind:variable	line:59
+config	mobius/employee.py	/^from mobius import config, logger$/;"	kind:namespace	line:8
+config	mobius/environment.py	/^from mobius import config$/;"	kind:namespace	line:4
+config	mobius/helpers.py	/^from mobius import config$/;"	kind:namespace	line:5
+config	mobius/tasking.py	/^from mobius import config, logger$/;"	kind:namespace	line:9
+config	mobius/tuner.py	/^from mobius import config, logger$/;"	kind:namespace	line:9
+config.py	mobius/config.py	1;"	kind:file	line:1
+constants.py	mobius/constants.py	1;"	kind:file	line:1
+create_employee	tests/test_employee.py	/^    def create_employee(self):$/;"	kind:member	line:70
+create_env	tests/test_environment.py	/^    def create_env(self):$/;"	kind:member	line:40
+datefmt	mobius/__init__.py	/^    datefmt='%Y-%m-%dT%H:%M:%S')$/;"	kind:variable	line:47
+datetime	tests/test_helpers.py	/^from datetime import datetime$/;"	kind:namespace	line:1
+datetime_utc_to_local	mobius/environment.py	/^    def datetime_utc_to_local(self, dt):$/;"	kind:member	line:39
+deepcopy	functional-tests/test_courier.py	/^from copy import deepcopy$/;"	kind:namespace	line:1
+deepcopy	mobius/assign.py	/^from copy import deepcopy$/;"	kind:namespace	line:2
+deepcopy	mobius/employee.py	/^from copy import deepcopy$/;"	kind:namespace	line:1
+deepcopy	mobius/tuner.py	/^from copy import deepcopy$/;"	kind:namespace	line:3
+dt_overlaps	mobius/assign.py	/^from mobius.helpers import dt_overlaps, week_day_range, dt_to_day$/;"	kind:namespace	line:7
+dt_overlaps	mobius/employee.py	/^    dt_to_day, dt_overlaps$/;"	kind:namespace	line:11
+dt_overlaps	mobius/helpers.py	/^def dt_overlaps(start1, stop1, start2, stop2):$/;"	kind:function	line:52
+dt_to_day	mobius/assign.py	/^from mobius.helpers import dt_overlaps, week_day_range, dt_to_day$/;"	kind:namespace	line:7
+dt_to_day	mobius/employee.py	/^    dt_to_day, dt_overlaps$/;"	kind:namespace	line:11
+dt_to_day	mobius/helpers.py	/^def dt_to_day(dt_obj):$/;"	kind:function	line:47
+dt_to_query_str	mobius/employee.py	/^    dt_to_day, dt_overlaps$/;"	kind:namespace	line:11
+dt_to_query_str	mobius/helpers.py	/^def dt_to_query_str(dt_obj):$/;"	kind:function	line:42
+dt_to_query_str	mobius/tasking.py	/^from mobius.helpers import week_sum, dt_to_query_str$/;"	kind:namespace	line:14
+employee.py	mobius/employee.py	1;"	kind:file	line:1
+environment.py	mobius/environment.py	1;"	kind:file	line:1
+f	mobius/__init__.py	/^f = ContextFilter()$/;"	kind:variable	line:32
+filter	mobius/__init__.py	/^    def filter(self, record):$/;"	kind:member	line:27
+formatter	mobius/__init__.py	/^formatter = logging.Formatter($/;"	kind:variable	line:45
+grb	mobius/assign.py	/^        import gurobipy as grb$/;"	kind:namespace	line:86
+handler	mobius/__init__.py	/^    handler = SysLogHandler($/;"	kind:variable	line:39
+handler	mobius/__init__.py	/^    handler = logging.StreamHandler(sys.stdout)$/;"	kind:variable	line:43
+helpers.py	mobius/helpers.py	1;"	kind:file	line:1
+helpers.py	tests/helpers.py	1;"	kind:file	line:1
+hostname	mobius/__init__.py	/^    hostname = "mobius-%s" % config.ENV$/;"	kind:variable	line:25
+iso8601	mobius/employee.py	/^import iso8601$/;"	kind:namespace	line:3
+iso8601	mobius/helpers.py	/^import iso8601$/;"	kind:namespace	line:2
+iso8601	mobius/tasking.py	/^import iso8601$/;"	kind:namespace	line:6
+json	mobius/tuner.py	/^import json$/;"	kind:namespace	line:2
+logger	mobius/__init__.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:21
+logger	mobius/assign.py	/^from mobius import logger, config$/;"	kind:namespace	line:9
+logger	mobius/employee.py	/^from mobius import config, logger$/;"	kind:namespace	line:8
+logger	mobius/tasking.py	/^from mobius import config, logger$/;"	kind:namespace	line:9
+logger	mobius/tuner.py	/^from mobius import config, logger$/;"	kind:namespace	line:9
+logging	mobius/__init__.py	/^import logging$/;"	kind:namespace	line:1
+logging	mobius/config.py	/^import logging$/;"	kind:namespace	line:2
+math	mobius/shift.py	/^import math$/;"	kind:namespace	line:1
+minutes_overlap	mobius/shift.py	/^    def minutes_overlap(self, start=None, stop=None):$/;"	kind:member	line:29
+normalize_to_midnight	mobius/helpers.py	/^def normalize_to_midnight(dt_obj):$/;"	kind:function	line:31
+normalize_to_midnight	tests/test_helpers.py	/^from mobius.helpers import week_day_range, normalize_to_midnight$/;"	kind:namespace	line:6
+os	mobius/__init__.py	/^import os$/;"	kind:namespace	line:4
+os	mobius/assign.py	/^import os$/;"	kind:namespace	line:3
+os	mobius/config.py	/^import os$/;"	kind:namespace	line:1
+os	mobius/tasking.py	/^import os$/;"	kind:namespace	line:3
+os	mobius/tuner.py	/^import os$/;"	kind:namespace	line:1
+papertrail_tuple	mobius/__init__.py	/^    papertrail_tuple = config.PAPERTRAIL.split(":")$/;"	kind:variable	line:38
+pytest	tests/test_helpers.py	/^import pytest$/;"	kind:namespace	line:4
+pytz	mobius/environment.py	/^import pytz$/;"	kind:namespace	line:1
+pytz	mobius/helpers.py	/^import pytz$/;"	kind:namespace	line:1
+pytz	mobius/tasking.py	/^import pytz$/;"	kind:namespace	line:5
+pytz	tests/test_helpers.py	/^import pytz$/;"	kind:namespace	line:3
+server	mobius/tasking.py	/^    def server(self):$/;"	kind:member	line:27
+setUp	tests/test_employee.py	/^    def setUp(self):$/;"	kind:member	line:17
+setUp	tests/test_environment.py	/^    def setUp(self):$/;"	kind:member	line:24
+set_shift_user_ids	mobius/assign.py	/^    def set_shift_user_ids(self):$/;"	kind:member	line:30
+shift.py	mobius/shift.py	1;"	kind:file	line:1
+shift_happiness_score	mobius/employee.py	/^    def shift_happiness_score(self, shift):$/;"	kind:member	line:328
+sleep	mobius/tasking.py	/^from time import sleep$/;"	kind:namespace	line:1
+staffjoy	mobius/assign.py	/^import staffjoy$/;"	kind:namespace	line:5
+staffjoy	mobius/employee.py	/^import staffjoy$/;"	kind:namespace	line:5
+str_to_dt	mobius/environment.py	/^from mobius.helpers import str_to_dt$/;"	kind:namespace	line:3
+str_to_dt	mobius/helpers.py	/^def str_to_dt(dt_str):$/;"	kind:function	line:36
+str_to_dt	mobius/shift.py	/^from mobius.helpers import str_to_dt$/;"	kind:namespace	line:3
+sys	mobius/__init__.py	/^import sys$/;"	kind:namespace	line:3
+tasking.py	mobius/tasking.py	1;"	kind:file	line:1
+tearDown	tests/test_employee.py	/^    def tearDown(self):$/;"	kind:member	line:66
+test_all_preference_alpha_beta_values	tests/test_employee.py	/^    def test_all_preference_alpha_beta_values(self):$/;"	kind:member	line:212
+test_alpha_decreases_beta_increases_with_more_preferences	tests/test_employee.py	/^    def test_alpha_decreases_beta_increases_with_more_preferences(self):$/;"	kind:member	line:221
+test_available_to_work_working_hours_end_midnight_available	tests/test_employee.py	/^    def test_available_to_work_working_hours_end_midnight_available(self):$/;"	kind:member	line:182
+test_available_to_work_working_hours_known_available	tests/test_employee.py	/^    def test_available_to_work_working_hours_known_available(self):$/;"	kind:member	line:99
+test_available_to_work_working_hours_known_unavailable	tests/test_employee.py	/^    def test_available_to_work_working_hours_known_unavailable(self):$/;"	kind:member	line:112
+test_available_to_work_working_hours_mixed_avail_therefore_unavailable	tests/test_employee.py	/^    def test_available_to_work_working_hours_mixed_avail_therefore_unavailable($/;"	kind:member	line:138
+test_available_to_work_working_hours_mixed_days_available	tests/test_employee.py	/^    def test_available_to_work_working_hours_mixed_days_available(self):$/;"	kind:member	line:152
+test_available_to_work_working_hours_mixed_days_unavailable	tests/test_employee.py	/^    def test_available_to_work_working_hours_mixed_days_unavailable(self):$/;"	kind:member	line:169
+test_available_to_work_working_hours_unavailable_one_minute	tests/test_employee.py	/^    def test_available_to_work_working_hours_unavailable_one_minute(self):$/;"	kind:member	line:125
+test_courier.py	functional-tests/test_courier.py	1;"	kind:file	line:1
+test_courier_data	functional-tests/test_courier.py	/^def test_courier_data():$/;"	kind:function	line:13
+test_days_of_week_returns_correct_days_of_week_order	tests/test_helpers.py	/^def test_days_of_week_returns_correct_days_of_week_order():$/;"	kind:function	line:19
+test_employee.py	tests/test_employee.py	1;"	kind:file	line:1
+test_environment.py	tests/test_environment.py	1;"	kind:file	line:1
+test_expected_alpha_beta_values	tests/test_employee.py	/^    def test_expected_alpha_beta_values(self):$/;"	kind:member	line:195
+test_helpers.py	tests/test_helpers.py	1;"	kind:file	line:1
+test_init	tests/test_employee.py	/^    def test_init(self):$/;"	kind:member	line:74
+test_init	tests/test_environment.py	/^    def test_init(self):$/;"	kind:member	line:44
+test_multiple_time_off_requests	tests/test_employee.py	/^    def test_multiple_time_off_requests(self):$/;"	kind:member	line:350
+test_no_preference_alpha_beta_values	tests/test_employee.py	/^    def test_no_preference_alpha_beta_values(self):$/;"	kind:member	line:203
+test_normalize_to_midnight	tests/test_helpers.py	/^def test_normalize_to_midnight():$/;"	kind:function	line:31
+test_preferences_filtered_by_availability	tests/test_employee.py	/^    def test_preferences_filtered_by_availability(self):$/;"	kind:member	line:86
+test_time_off_request_approved_paid	tests/test_employee.py	/^    def test_time_off_request_approved_paid(self):$/;"	kind:member	line:235
+test_time_off_request_approved_unpaid	tests/test_employee.py	/^    def test_time_off_request_approved_unpaid(self):$/;"	kind:member	line:260
+test_time_off_request_denied	tests/test_employee.py	/^    def test_time_off_request_denied(self):$/;"	kind:member	line:282
+test_time_off_request_no_state	tests/test_employee.py	/^    def test_time_off_request_no_state(self):$/;"	kind:member	line:327
+test_time_off_request_sick	tests/test_employee.py	/^    def test_time_off_request_sick(self):$/;"	kind:member	line:305
+test_week_day_range_succeeds_with_no_input	tests/test_helpers.py	/^def test_week_day_range_succeeds_with_no_input():$/;"	kind:function	line:15
+test_week_day_range_throws_error_for_invalid_day	tests/test_helpers.py	/^def test_week_day_range_throws_error_for_invalid_day():$/;"	kind:function	line:10
+timedelta	mobius/assign.py	/^from datetime import timedelta$/;"	kind:namespace	line:1
+timedelta	mobius/employee.py	/^from datetime import timedelta$/;"	kind:namespace	line:2
+total_minutes	mobius/shift.py	/^    def total_minutes(self):$/;"	kind:member	line:24
+traceback	mobius/tasking.py	/^import traceback$/;"	kind:namespace	line:2
+tune	mobius/tuner.py	/^def tune():$/;"	kind:function	line:12
+tune_file	mobius/assign.py	/^tune_file = os.path.dirname(os.path.realpath($/;"	kind:variable	line:11
+tuner.py	mobius/tuner.py	1;"	kind:file	line:1
+unittest	tests/test_employee.py	/^import unittest$/;"	kind:namespace	line:5
+unittest	tests/test_environment.py	/^import unittest$/;"	kind:namespace	line:5
+week_day_range	functional-tests/test_courier.py	/^from mobius.helpers import week_day_range$/;"	kind:namespace	line:6
+week_day_range	mobius/assign.py	/^from mobius.helpers import dt_overlaps, week_day_range, dt_to_day$/;"	kind:namespace	line:7
+week_day_range	mobius/employee.py	/^    dt_to_day, dt_overlaps$/;"	kind:namespace	line:11
+week_day_range	mobius/helpers.py	/^def week_day_range(start_day="monday"):$/;"	kind:function	line:8
+week_day_range	tests/test_employee.py	/^from mobius.helpers import week_day_range$/;"	kind:namespace	line:8
+week_day_range	tests/test_helpers.py	/^from mobius.helpers import week_day_range, normalize_to_midnight$/;"	kind:namespace	line:6
+week_range_all_true	mobius/employee.py	/^    dt_to_day, dt_overlaps$/;"	kind:namespace	line:11
+week_range_all_true	mobius/helpers.py	/^def week_range_all_true():$/;"	kind:function	line:14
+week_sum	mobius/helpers.py	/^def week_sum(week_range_obj):$/;"	kind:function	line:23
+week_sum	mobius/tasking.py	/^from mobius.helpers import week_sum, dt_to_query_str$/;"	kind:namespace	line:14
