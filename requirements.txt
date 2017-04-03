@@ -14,5 +14,5 @@ pytest==2.9.1
 pytz==2016.4
 requests==2.10.0
 six==1.10.0
-staffjoy==0.22
+staffjoy==0.24
 yapf==0.8.2

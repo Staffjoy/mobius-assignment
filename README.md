@@ -11,6 +11,11 @@ This tool was used for [Staffjoy V1 (Suite)](http://github.com/staffjoy/suite) c
 ## Credit
 
 This repository was conceived and authored in its entirety by [@philipithomas](https://github.com/philipithomas). This is a fork of the internal repository. For security purposes, the Git history has been squashed and client names have been scrubbed from tests.
+
+## Self-Hosting
+
+If you are self-hosting Mobius, please make sure that you are using version `>=0.24` of the `staffoy` client (in `requirements.txt`). Then, modify `mobius/tasking.py` to include your custom domain - when initializing `Client()`, pass in your custom URL base, e.g. `Client(url_base="https://staffjoy.example.com/api/v2/, key=config.STAFFJOY_API_KEY, env=config.ENV)`,
+
  
 # Project Mobius
 
