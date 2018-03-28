@@ -2,7 +2,7 @@
 
 # Mobius - Service for assigning workers to shifts according to constraints
 
-[![Moonlight contractors](https://img.shields.io/badge/contractors-1147-brightgreen.svg)](https://moonlightwork.com/for/staffjoy)
+[![Moonlight contractors](https://www.moonlightwork.com/shields/python.svg)](https://www.moonlightwork.com/for/python?referredByUserID=1&referralProgram=maintainer&referrerName=Staffjoy)
 
 [Staffjoy is shutting down](https://blog.staffjoy.com/staffjoy-is-shutting-down-39f7b5d66ef6#.ldsdqb1kp), so we are open-sourcing our code. Mobius is an applied mathematics microservice for assigning workers to shifts, subject to constraints like availability and worker availability. This tool relies on the [Gurobi](http://www.gurobi.com/) Python library, which is closed source. 
 
